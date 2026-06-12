@@ -1,0 +1,32 @@
+[
+  {
+    "image": "/images/Project1.jpg",
+    "title": "Decorative wallpaper installation",
+    "description": "Feature wall finished with detailed decorative wallpaper for a refined interior look."
+  },
+  {
+    "image": "/images/Project3.jpg",
+    "title": "Custom wooden countertop",
+    "description": "Made-to-measure wooden countertop installed with a clean and natural finish."
+  },
+  {
+    "image": "/images/Project4.jpg",
+    "title": "Garden fence and greenery wall",
+    "description": "Outdoor garden area finished with fencing and a natural green wall detail."
+  },
+  {
+    "image": "/images/Project5.jpg",
+    "title": "Covered patio construction",
+    "description": "Wooden patio cover built to create a sheltered and practical outdoor space."
+  },
+  {
+    "image": "/images/Project6.jpg",
+    "title": "Garden shed and outdoor structure",
+    "description": "Timber garden structure built with durable materials and a clean exterior finish."
+  },
+  {
+    "image": "/images/Project7.jpg",
+    "title": "Bathroom vanity and tiling",
+    "description": "Bathroom area finished with wall tiling, vanity installation, and neat detailing."
+  }
+]

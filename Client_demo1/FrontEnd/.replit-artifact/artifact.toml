@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Schwung Bouw"
+version = "1.0.0"
+id = "artifacts/schwung-bouw"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22115
+
+[services.development]
+run = "pnpm --filter @workspace/schwung-bouw run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/schwung-bouw", "run", "build" ]
+publicDir = "artifacts/schwung-bouw/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22115"
+BASE_PATH = "/"
