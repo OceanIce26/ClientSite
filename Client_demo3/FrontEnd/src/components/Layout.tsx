@@ -134,7 +134,10 @@ export function Navbar() {
       {isOpen && (
         <div
           className="md:hidden bg-white px-4 py-5"
-          style={{ borderTop: "1px solid hsl(220 35% 90%)" }}
+          style={{
+            background: "hsl(218 45% 7% / 0.98)",
+            borderTop: "1px solid hsl(199 89% 58% / 0.14)",
+          }}
         >
           <nav className="flex flex-col gap-5">
             {navLinks.map((link) => (
